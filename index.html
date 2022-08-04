@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>
+ Zena internship.Ltd
+  </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  
+  <style>
+   @media(max-width:759px){
+     body{
+ background-position: center;
+background-repeat: no-repeat; 
+background-size: cover;
+height:100%;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-JkRk50WwgZoLWWYK7uHn_CYsi5v66-EpQ&usqp=CAU") 
+      
+    }
+    .form{
+      display:flex;
+      flex-direction:column;
+      background-color:  #d7cec3;
+      border-radius:15px;
+    }
+    button{
+      text-align: left;
+      width:5em;
+      border-radius:15px;
+      background:linear-gradient(90deg,#ffa200,brown);
+      padding:5px;
+      margin:15px;
+    }
+    label{
+      position:relative;
+      left:20px;
+    }
+    input{
+      border-radius:15px;
+      
+    }
+    .impo{
+       background:linear-gradient(90deg,#d7cec3,#ffa200);
+       border-radius:7px;
+    }
+    .tt{
+      color:white;
+     
+    }
+    h1{
+      background:linear-gradient(90deg,orange,#ffa200);
+    }
+    footer{
+      background-color: hsl(33, 20%, 70%);
+      border-radius:15px;
+    }
+    .wd{
+      width:80vw;
+      height:100px;
+      background: linear-gradient(90deg,white,white,gray);
+    }
+    h3{
+      text-decoration: underline;
+    }
+    h2{
+      text-decoration: underline;
+       color:#d47e00
+    }
+    .fk{
+      display:flex;
+    }
+    .flee{
+      display:flex;
+    }
+    .jj{
+      display:flex;
+      flex-direction:column;
+      background:linear-gradient(90deg,#d7cec3,#ffa200); border-radius:15px;
+      width:90%;
+      margin:10px auto;
+    }
+    .img{
+      border-radius:80%;
+      width:50px;
+      height:50px;
+    }
+    .anime{
+      width:60px;
+      height:60px;
+      border-radius:50%;
+      background-color: red;
+      animation-name: aa;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes aa{
+      0%{
+        position: relative;
+        left:15px;
+        background-color:  #d7cec3 ;
+      }
+      50%{
+        position: relative;
+        left:70px;
+        opacity:0.9;
+        background:linear-gradient(90deg,#d7cec3,#ffa200);
+      }
+      
+      100%{
+        position: relative;
+        left:140px;
+        opacity: 0.7;
+        background-color:hsl(33,100%,70%) ;
+      }
+    }
+    .k{
+      text-align:justify;
+    }
+    
+   }
+   @media(min-width:760px){
+     body{
+ background-position: center;
+background-repeat: no-repeat; 
+background-size: cover;
+height:100%;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-JkRk50WwgZoLWWYK7uHn_CYsi5v66-EpQ&usqp=CAU") 
+      
+    }
+    .form{
+      display:flex;
+      flex-direction:column;
+      background-color:  #d7cec3;
+      border-radius:15px;
+    }
+    button{
+      text-align: left;
+      width:5em;
+      border-radius:15px;
+      background:linear-gradient(90deg,#ffa200,brown);
+      padding:5px;
+      margin:15px;
+    }
+    label{
+      position:relative;
+      left:20px;
+    }
+    input{
+      border-radius:15px;
+      
+    }
+    .impo{
+       background:linear-gradient(90deg,#d7cec3,#ffa200);
+       border-radius:7px;
+    }
+    .tt{
+      color:white;
+     
+    }
+    h1{
+      background:linear-gradient(90deg,orange,#ffa200);
+    }
+    footer{
+      background-color: hsl(33, 20%, 70%);
+      border-radius:15px;
+    }
+    .wd{
+      width:80vw;
+      height:100px;
+      background: linear-gradient(90deg,white,white,gray);
+    }
+    h3{
+      text-decoration: underline;
+    }
+    h2{
+      text-decoration: underline;
+       color:#d47e00
+    }
+    .fk{
+      display:flex;
+    }
+    .flee{
+      display:flex;
+    }
+    .jj{
+      display:flex;
+      flex-direction:column;
+      background:linear-gradient(90deg,#d7cec3,#ffa200); border-radius:15px;
+      width:90%;
+      margin:10px auto;
+    }
+    .img{
+      border-radius:80%;
+      width:50px;
+      height:50px;
+    }
+    .anime{
+      width:60px;
+      height:60px;
+      border-radius:50%;
+      background-color: red;
+      animation-name: aa;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes aa{
+      0%{
+        position: relative;
+        left:15px;
+        background-color:  #d7cec3 ;
+      }
+      50%{
+        position: relative;
+        left:70px;
+        opacity:0.9;
+        background:linear-gradient(90deg,#d7cec3,#ffa200);
+      }
+      
+      100%{
+        position: relative;
+        left:140px;
+        opacity: 0.7;
+        background-color:hsl(33,100%,70%) ;
+      }
+    }
+    .k{
+      text-align:justify;
+    }
+    
+   }
+  </style>
+</head>
+<body>
+  <main class="div">
+    <h1>Survey form</h1>
+    <div class="fk">
+      <h2>Welcome back</h2><div class="anime"></div>
+      </div>
+    <h2> Let's get to know more about you</h2>
+  <form  action="" class="form">
+    <h2>Personal Information</h2>
+    <label>
+      Name <br>
+      <input type="text" placeholder="Enter your name">
+    </label>
+    <br>
+      <label>
+      Email address <br> <input type="email" placeholder="Enter your email address">
+    </label>
+    <br>
+      <label>
+      Phone number<br> <input type="number" placeholder="Enter your phone number">
+    </label>
+    <br>
+    <button type="submit"> Submit</button>
+  </form>
+  
+  
+  <form action="" class="tt">
+    <h2>Experience level</h2>
+    <label><input type="radio" name="exp" > Novice</label>
+    <br>
+      <label><input type="radio" name="exp" > Begineer(1year)</label>
+    <br>
+      <label><input type="radio" name="exp" > Intermediate(2-3years)</label>
+    <br>
+      <label><input type="radio" name="exp" > Advanced(4+ years)</label>
+    <br>
+     <button type="submit"> Submit</button>
+     <br>
+  </form>
+  
+  
+  
+  <form action="" class="impo">
+    <h2>Tech skills you possess</h2>
+    <label>
+      <input type="checkbox" name="techskills" checked>
+      Frontend development(Html,CSS and Javascript)
+    </label>
+    <br>
+      <label>
+      <input type="checkbox" name="techskills" >
+      Frontend development(ReactJs)
+    </label>
+    <br>
+      <label>
+      <input type="checkbox" name="techskills" >
+      Backend development(PHP)
+    </label>
+    <br>
+      <label>
+      <input type="checkbox" name="techskills" >
+      Backend development(NodeJs)
+    </label>
+    <br>
+      <label>
+      <input type="checkbox" name="techskills" >
+      Video modeling
+    </label>
+    <br>
+      <label>
+      <input type="checkbox" name="techskills" >
+      Data analysis
+    </label>
+    <br>
+    <br>
+     <button type="submit"> Submit</button>
+    <br>
+  
+  </form>
+  
+  
+</main>
+
+<footer>
+  <h2>Read what some our successful interns have to say about the internship</h2>
+  <div class="jj">
+    
+    <p class="k">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a odio dui. Maecenas convallis eleifend suscipit. Ut ullamcorper sed dui nec bibendum. Morbi et arcu nisl. Quisque hendrerit interdum purus id fringilla. Donec vitae tempus metus, vel auctor orci. Aliquam</p>
+    <div class="flee"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGGFcBZKQ3CYhdMmDwvHv7w1AySqJk8WjvA&usqp=CAU" alt="person" class="img"> <p>Marthin Bach</p></div>
+  </div>
+  
+   <div class="jj">
+    
+    <p class="k">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a odio dui. Maecenas convallis eleifend suscipit. Ut ullamcorper sed dui nec bibendum. Morbi et arcu nisl. Quisque hendrerit interdum purus id fringilla. Donec vitae tempus metus, vel auctor orci. Aliquam</p>
+    <div class="flee"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGGFcBZKQ3CYhdMmDwvHv7w1AySqJk8WjvA&usqp=CAU" alt="person" class="img"><p>Marthin Bach</p></div>
+  </div>
+  
+   <div class="jj">
+    
+    <p class="k">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a odio dui. Maecenas convallis eleifend suscipit. Ut ullamcorper sed dui nec bibendum. Morbi et arcu nisl. Quisque hendrerit interdum purus id fringilla. Donec vitae tempus metus, vel auctor orci. Aliquam</p>
+    <div class="flee"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGGFcBZKQ3CYhdMmDwvHv7w1AySqJk8WjvA&usqp=CAU" alt="person" class="img"><p>Marthin Bach</p></div>
+    </div>
+    <br>
+    <form action="">
+      
+    <h2>Have any comments for us?</h2>
+    <label>
+      <input type="text" placeholder="Type your comments here. Thank you" class="wd">
+    </label>
+    <br>
+     <button type="submit"> Send</button>
+    <br>
+    </form>
+  
+  <h3>Contact Info</h3>
+  <ul>
+ 
+<li> send a direct message to this<a href="https://wa.me/+2347010970658" target="_blank"> whatsapp number</a>
+<li>OR<a href="#"> Instagram</a></li>
+<li>
+  OR <a href="#"> Twitter</a>
+</li>
+  </ul>
+</footer>
+</body>
+</html>
